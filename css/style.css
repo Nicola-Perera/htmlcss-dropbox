@@ -1,0 +1,77 @@
+/* reset rules */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* debug rules */
+.debug .info {
+    height: 80px;
+    width: 50%;
+    background-color: red;
+}
+
+.debug .contact {
+    height: 80px;
+    width: 50%;
+    background-color: violet;
+}
+
+.debug .jumbo {
+    height: 400px;
+    width: 100%;
+    background-color: lightblue;
+}
+
+.debug .top-bottom {
+    height: 100%;
+    background-color: yellow;
+}
+
+.debug .free_try {
+    height: 45%;
+    background-color: orange;
+}
+
+.debug .preview {
+    height: 45%;
+    background-color: palevioletred;
+}
+
+/* common rules */
+.container>div {
+    float: left;
+}
+
+/* utility */
+.top-bottom {
+    width: 80%;
+    margin: auto;
+}
+
+.free_try {
+    width: 40%;
+}
+
+.preview {
+    width: 60%;
+}
+
+/***********
+ header 
+ ***********/
+
+ /***********
+  main 
+  ***********/
+
+  /***********
+   footer 
+   ***********/
