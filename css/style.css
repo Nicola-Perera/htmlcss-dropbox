@@ -23,6 +23,7 @@
     width: 50%;
     background-color: violet;
 }
+/* end debug header */
 
 .debug .jumbo {
     height: 400px;
@@ -45,24 +46,145 @@
     background-color: palevioletred;
 }
 
+.debug .subscription {
+    height: 800px;
+    background-color: greenyellow;
+}
+
+.debug .professional {
+    height: 80%;
+    background-color: hotpink;
+}
+
+.debug .standard {
+    height: 80%;
+    background-color: indianred;
+}
+
+.debug .advanced {
+    height: 80%;
+    background-color: lightcoral;
+}
+
+.debug .ufficio {
+    height: 300px;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.debug .operation {
+    height: 600px;
+    width: 100%;
+    background-color: lightslategrey;
+}
+
+.debug .task {
+    height: 45%;
+    width: 33.3%;
+    background-color: lightsteelblue;
+}
+
+.debug .sponsor {
+    height: 600px;
+    width: 100%;
+    background-color: maroon;
+}
+
+.debug .brand {
+    height: 55%;
+    width: 30%;
+}
+
+.debug .brand div:nth-child(1){
+    height: 50%;
+    width: 50%;
+    background-color: olive;
+}
+
+.debug .brand div:nth-child(2){
+    height: 50%;
+    width: 50%;
+    background-color: yellow;
+}
+
+.debug .brand div:nth-child(3){
+    height: 50%;
+    width: 50%;
+    background-color: yellowgreen;
+}
+
+.debug .brand div:nth-child(4){
+    height: 50%;
+    width: 50%;
+    background-color: lime;
+}
+
+.debug .leader {
+    height: 55%;
+    width: 40%;
+    background-color: pink;
+}
+/* end debug main */
+
+.debug footer {
+    height: 400px;
+    width: 100%;
+    background-color: black;
+}
+
+.debug .links {
+    height: 250px;
+}
+
+.debug .links div:nth-child(1) {
+    height: 90%;
+    width: 20%;
+    background-color: rgb(78, 32, 32);
+}
+
+.debug .links div:nth-child(2) {
+    height: 90%;
+    width: 20%;
+    background-color: white;
+}
+
+.debug .links div:nth-child(3) {
+    height: 90%;
+    width: 20%;
+    background-color: rgb(202, 175, 175);
+}
+
+.debug .links div:nth-child(4) {
+    height: 90%;
+    width: 20%;
+    background-color: rgb(148, 101, 101);
+}
+
+.debug .links div:nth-child(5) {
+    height: 90%;
+    width: 20%;
+    background-color: rgb(128, 66, 66);
+}
+/* end debug footer */
+
+
 /* common rules */
 .container>div {
     float: left;
 }
 
-/* utility */
+.content {
+    width: 70%;
+    margin: auto;
+}
+
 .top-bottom {
     width: 80%;
     margin: auto;
 }
 
-.free_try {
-    width: 40%;
-}
+/* utility */
 
-.preview {
-    width: 60%;
-}
 
 /***********
  header 
@@ -71,6 +193,25 @@
  /***********
   main 
   ***********/
+  .free_try {
+    width: 40%;
+}
+
+.preview {
+    width: 60%;
+}
+
+.professional {
+      width: 33.3%;
+  }
+
+  .standard {
+      width: 33.3%;
+  }
+
+  .advanced {
+      width: 33.3%;
+  }
 
   /***********
    footer 
