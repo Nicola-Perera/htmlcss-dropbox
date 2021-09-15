@@ -211,6 +211,12 @@ p {
     margin: 1rem 0;
 }
 
+hr {
+    margin: 2rem 0;
+    color: lightgray;
+    width: 20%;
+}
+
 /* utility */
 .button {
     font-size: .8rem;
@@ -347,12 +353,6 @@ header .dx {
 .extra_padding > .button {
     margin-top: 3rem;
 }
-
-.extra_padding hr {
-    margin: 2rem 0;
-    color: lightgray;
-    width: 20%;
-}
   /* fine sezione pack */
 
 .contatti_ufficio {
@@ -415,6 +415,102 @@ header .dx {
     font-size: .9rem;
 }
 /* fine sezione operation */
+
+.users {
+    margin-top: 10rem;
+    width: 54%;
+    height: 30px;
+}
+
+.users > a {
+    line-height: 80px;
+    margin: 8rem 0;
+}
+/* fine sezione users */
+
+.sponsor {
+    height: 600px;
+    width: 100%;
+    background-color: #b4e0e7;
+}
+
+.brand {
+    height: 55%;
+    width: 30%;
+}
+
+.leader {
+    height: 55%;
+    width: 40%;
+    background-color: #f5f5f5;
+}
+
+.brand img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.brand > div{
+    height: 50%;
+    width: 50%;
+    position: relative;
+}
+
+.img1 {
+    background-color: #a2d39b;
+}
+.img2 {
+    background-color: #61082b;
+}
+.img3 {
+    background-color: #0092ce;
+}
+.img4 {
+    background-color: #ff1c1c;
+}
+.img5 {
+    background-color: #d5001f;
+}
+.img6 {
+    background-color: #b4d0e7;
+}
+.img7 {
+    background-color: #0d2481;
+}
+.img8 {
+    background-color: #ffd830;
+}
+
+.leader img {
+    width: 30%;
+}
+
+.center {
+    padding: 1.7rem;
+}
+
+.sponsor h1{
+    color: #61082b;
+}
+
+.sponsor a {
+    color: black;
+    background-color: white;
+}
+
+.take {
+    width: 50%;
+    padding: 5.5rem;
+}
+.free {
+    width: 50%;
+    text-align: center;
+    margin-top: 6rem;
+}
+/* fine sezione sponsor */
   /***********
    footer 
    ***********/
