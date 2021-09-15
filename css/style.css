@@ -187,13 +187,29 @@ body {
     margin-top: 3rem;
 }
 
+h4 {
+    margin: .7rem 0;
+}
+
+h5 {
+    text-align: center;
+    padding: .5rem;
+    border-bottom: 1px solid lightgray;
+}
+
 h6 {
     color: grey;
     margin-bottom: 1.5rem;
 }
 
+p {
+    font-size: .8rem;
+    margin: 1rem 0;
+}
+
 /* utility */
 .button {
+    font-size: .8rem;
     text-decoration: none;
     color: white;
     padding: .3rem .9rem;
@@ -302,26 +318,15 @@ header .dx {
     margin: 2rem 0;
 }
 
-.subscription > div {
+.subscription > div, .ufficio {
     border: 1px solid lightgray;
-}
-
-
-.subscription h5 {
-    text-align: center;
-    padding: .5rem;
-    border-bottom: 1px solid lightgray;
 }
 
 .extra_padding {
     padding: 1.5rem;
 }
 
-.extra_padding > h4 {
-    margin: .3rem 0;
-}
-
-.extra_padding > p {
+p {
     font-size: .8rem;
     margin: 1rem 0;
 }
@@ -354,6 +359,21 @@ header .dx {
 
   }
   /* fine sezione pack */
+
+.contatti_ufficio {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+}
+
+.enterprise {
+    width: 70%;
+}
+
+.vendite {
+    width: 30%;
+}
+  /* fine sezione ufficio */
 
   /***********
    footer 
