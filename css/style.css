@@ -187,6 +187,10 @@ body {
     margin-top: 3rem;
 }
 
+h3 {
+    font-size: 1.5rem;
+}
+
 h4 {
     margin: .7rem 0;
 }
@@ -211,8 +215,11 @@ p {
 .button {
     font-size: .8rem;
     text-decoration: none;
-    color: white;
     padding: .3rem .9rem;
+}
+
+.blue {
+    color: white;
     background-color: #0061ff;
 }
 
@@ -228,6 +235,13 @@ p {
     border: 3px solid #0061ff;
 }
 
+.column_30 > div {
+    width: 30%;
+}
+
+.column_30 > div:nth-of-type(3n+2) {
+    margin: 0 5%;
+}
 
 /***********
  header 
@@ -318,17 +332,16 @@ header .dx {
     margin: 2rem 0;
 }
 
+.subscription > div {
+    height: 100%;
+}
+
 .subscription > div, .ufficio {
     border: 1px solid lightgray;
 }
 
 .extra_padding {
     padding: 1.5rem;
-}
-
-p {
-    font-size: .8rem;
-    margin: 1rem 0;
 }
 
 .extra_padding > .button {
@@ -340,24 +353,6 @@ p {
     color: lightgray;
     width: 20%;
 }
-
-.professional {
-      width: 30%;
-      height: 100%;
-      
-  }
-
-  .standard {
-      width: 30%;
-      height: 100%;
-      margin: 0 5%;
-  }
-
-  .advanced {
-      width: 30%;
-      height: 100%;
-
-  }
   /* fine sezione pack */
 
 .contatti_ufficio {
@@ -373,8 +368,53 @@ p {
 .vendite {
     width: 30%;
 }
-  /* fine sezione ufficio */
+/* fine sezione ufficio */
 
+.partner {
+    width: 100%;
+    margin: 5rem 0;
+}
+
+.picture > img {
+    width: 100%;
+    height: 100%;
+}
+
+.find > p {
+    font-size: .9rem;
+    line-height: 1.8rem;
+}
+
+.find > a {
+    margin-top: 3rem;
+    padding: .7rem;
+    font-size: 1.1rem;
+    color: black;
+    border: 2px solid black;
+}
+
+.picture {
+    width: 50%;
+}
+
+.find {
+    width: 50%;
+    padding-top: 1.6rem;
+    padding-left: 1.6rem;
+}
+/* fine sezione partner */
+.operation > div {
+    width: 100%;
+}
+
+.task > img {
+    width: 100%;
+}
+
+.task > p {
+    font-size: .9rem;
+}
+/* fine sezione operation */
   /***********
    footer 
    ***********/
