@@ -517,11 +517,17 @@ header .dx {
     padding: 1.5rem 0;
     border-bottom: 1px solid lightgray;
 }
+.faq > div:hover > p{
+    display: initial;
+    width: 70%;
+    color: grey;
+}
 
 .question a {
     font-weight: bold;
     text-decoration: none;
     color: black;
+    display: inline-block;
 }
 
 .question > div {
@@ -533,6 +539,20 @@ header .dx {
 .question h1 {
     padding-bottom: 3rem;
     border-bottom: 1px solid lightgray;
+}
+
+.faq a:first-child {
+    width: 95%;
+}
+
+.faq a:last-child {
+    width: 4%;
+}
+
+.faq p{
+    display: none;
+    width: 70%;
+    color: grey;
 }
 /* fine sezione question */
 
