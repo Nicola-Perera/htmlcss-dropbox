@@ -535,10 +535,22 @@ header .dx {
        list-style: none;
    }
 
-   .links {
+   .links, #language{
        margin: 3rem;
    }
 
    .links > div {
        width: 20%;
+   }
+
+   footer select {
+       
+       color: white;
+       background-color: black;
+   }
+
+   footer .select {
+       margin-left: 3rem;
+        width: 10%;
+        border-top: 1px solid white;
    }
