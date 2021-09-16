@@ -229,6 +229,9 @@ hr {
     color: white;
     background-color: #0061ff;
 }
+.blue:hover {
+    background-color: rgb(59, 120, 141);
+}
 
 .radio {
     display: inline-block;
@@ -265,8 +268,10 @@ hr {
      font-size: .8rem;
  }
  header li {
+     line-height: 100%;
      margin: 0 1rem;
      display: inline-block;
+     padding-bottom: 2rem;
 }
 
 header a {
@@ -286,6 +291,10 @@ header .sx {
 
 header .dx {
     text-align: right;
+}
+
+header li:hover {
+    border-bottom: 2px solid black;
 }
 
 
@@ -403,6 +412,9 @@ header .dx {
     padding-top: 1.6rem;
     padding-left: 1.6rem;
 }
+.find .button:hover {
+    background-color: rgb(218, 218, 218);
+}
 /* fine sezione partner */
 .operation > div {
     width: 100%;
@@ -518,9 +530,12 @@ header .dx {
     border-bottom: 1px solid lightgray;
 }
 .faq > div:hover > p{
-    display: initial;
+    display: block;
     width: 70%;
     color: grey;
+}
+.faq > div:hover {
+    background-color: rgb(241, 241, 241);
 }
 
 .question a {
@@ -580,6 +595,7 @@ header .dx {
 
    .links, #language{
        margin: 3rem;
+       border: none;
    }
 
    .links > div {
@@ -596,4 +612,8 @@ header .dx {
        margin-left: 3rem;
         width: 10%;
         border-top: 1px solid white;
+   }
+
+   .links a:hover {
+       text-decoration: initial;
    }
