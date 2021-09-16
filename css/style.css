@@ -513,6 +513,29 @@ header .dx {
 }
 /* fine sezione sponsor */
 
+.faq > div {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.question a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.question > div {
+    font-size: .8rem;
+    width: 70%;
+    margin: 4rem auto;
+}
+
+.question h1 {
+    padding-bottom: 3rem;
+    border-bottom: 1px solid lightgray;
+}
+/* fine sezione question */
+
   /***********
    footer 
    ***********/
