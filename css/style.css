@@ -168,6 +168,7 @@
 
 /* common rules */
 body {
+    min-width: 1440px;
     font-family: 'Open Sans',sans-serif;
 }
 
@@ -503,7 +504,7 @@ header .dx {
 
 .take {
     width: 50%;
-    padding: 5.5rem;
+    padding:5rem 8.5rem;
 }
 .free {
     width: 50%;
@@ -511,6 +512,33 @@ header .dx {
     margin-top: 6rem;
 }
 /* fine sezione sponsor */
+
   /***********
    footer 
    ***********/
+
+   footer {
+       color: white;
+       height: 500px;
+       background-color: black;
+       padding: 3rem;
+       line-height: 2rem;
+       font-size: .8rem;
+   }
+
+   footer a {
+       color: white;
+       text-decoration: none;
+   }
+
+   footer li {
+       list-style: none;
+   }
+
+   .links {
+       margin: 3rem;
+   }
+
+   .links > div {
+       width: 20%;
+   }
